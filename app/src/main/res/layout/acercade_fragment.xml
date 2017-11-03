@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:elegantTextHeight="true"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="30dp"
+        android:text="PROYECTO : RESOLUCION DE ALGORITMOS " />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:elegantTextHeight="true"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="30dp"
+        android:text="DESARROLLADOR: MANUEL JOAQUIN SAAVEDRA SEVERICHE" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:elegantTextHeight="true"
+        android:text="Version de laAplicacion : 1.0"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:elegantTextHeight="true"
+        android:text="Grupo : #15"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+    android:id="@+id/textView17"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
+    android:elegantTextHeight="true"
+    android:text="Inteligencia Artificial "
+    android:textAlignment="center"
+    android:textColor="@color/colorPrimary"
+    android:textSize="18dp"
+    android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:elegantTextHeight="true"
+        android:text="Ing. Edwin Vargas "
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

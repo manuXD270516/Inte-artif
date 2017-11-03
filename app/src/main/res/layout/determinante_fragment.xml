@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Determinante de Matriz NxN"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAzul"
+                android:textSize="22dp"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Seleccione Dimension N : "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/skDimension"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:max="10" />
+
+            <Button
+                android:id="@+id/btnCargarM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/boton_redondo"
+                android:backgroundTint="@color/colorAzul"
+                android:text="Cargar matriz N x N"
+                android:textColor="@color/colorBlanco" />
+
+            <Button
+                android:id="@+id/btnDeterminante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                android:background="@drawable/boton_redondo"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:onClick="calcularDeterminante"
+                android:text="calcular determinante"
+                android:textColor="@color/colorBlanco" />
+            <GridView
+                android:id="@+id/gvMatriz"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="650dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+
+                android:columnWidth="70dp"
+                android:horizontalSpacing="5dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="spacingWidth"
+                android:verticalSpacing="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
